@@ -2,7 +2,6 @@
   height: 100dvh;
 }
 
-#1st-contaner {
-  height: 200px;
-  background-color: blue;
+.cv-date {
+  text-align: left;
 }
