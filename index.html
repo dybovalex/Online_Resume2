@@ -9,56 +9,199 @@
       rel="stylesheet"
       href="./bootstrap-5.3.6-dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <!-- About-->
-    <div class="container-fluid bg-body-tertiary row">
-      <div
-        class="col-lg-3 col-sm-12 border border-black rounded m-3 d-flex justify-content-center"
-      >
-        <img
-          class="rounded-circle m-3"
-          src="./images/A_Dybov_cut.jpg"
-          alt="Picture Alexander Dybov"
-          width="200"
-        />
-      </div>
-      <div class="col-lg-8 col-sm-12 border border-black rounded m-3">
-        <h2>Curriculum Vitae</h2>
-        <h1>Alexander Dybov</h1>
-        <ul class="nav nav-pills flex-column">
-          <li>Alois Grunder Str 15a 8073 Seiersberg, Austria</li>
-          <li>dybovalex@gmail.com</li>
-          <li>+43 660 141 73 45</li>
-          <li>Date of Birth: 10. Aug 1984</li>
-          <li>Marital status: married</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="container-fluid bg-body-tertiary row">
-      <h2 class="ms-5 my-3">Experience</h2>
-      <hr />
-      <div class="ms-3 col-lg-3">
-        <h5>Nov 2025 - present</h5>
-      </div>
-      <div class="ms-3 col-lg-8">
-        <h4>Project Manager, VTU Engineering GMBH</h4>
-      </div>
-      <div class="ms-3 col-lg-3"></div>
-      <div class="ms-3 col-lg-8">
-        <span class="pb-5"
-          >Managing projects in chemical plant engineering</span
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 fixed-top"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">Alexander Dybov</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
         >
-        <ul>
-          <li>Managing roles in CAPEX projects (Budget > 15 Mio)</li>
-          <li>Leading project teams (up to 30 people)</li>
-          <li>Contract management, budgeting and cost estimate</li>
-          <li>Change management, scheduling and controling</li>
-        </ul>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Experince" class="nav-link">Experince</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Awards" class="nav-link">Awards</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Hobbies" class="nav-link">Hobbies</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
+
+    <!-- About Me -->
+    <section
+      id="About"
+      class="bg-body-tertiary pt-5 text-center text-sm-start py-3"
+    >
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center"
+          >
+            <img
+              class="rounded-circle m-3"
+              src="./images/A_Dybov_cut.jpg"
+              alt="Picture Alexander Dybov"
+              width="200"
+            />
+          </div>
+          <!-- <div class="col-md-3">
+            <h2>Curriculum Vitae</h2>
+            <h1>Alexander Dybov</h1>
+            <ul class="nav nav-pills flex-column">
+              <li>
+                <i class="bi bi-house me-2"></i> Alois Grunder Str 15a 8073
+                Seiersberg, Austria
+              </li>
+              <li><i class="bi bi-envelope me-2"></i> dybovalex@gmail.com</li>
+              <li><i class="bi bi-telephone me-2"></i> +43 660 141 73 45</li>
+              <li>
+                <i class="bi bi-calendar-event me-2"></i> Date of Birth: 10. Aug
+                1984
+              </li>
+              <li><i class="bi bi-people me-2"></i> Marital status: married</li>
+            </ul>
+          </div> -->
+          <div class="col-md-8">
+            <h2>About Me</h2>
+            <p>
+              I am a certified Project Management Professional (PMP) with a PhD
+              in Chemistry and an MBA, combining scientific expertise with
+              strategic and financial acumen to lead complex chemical
+              engineering projects. I specialize in managing cross-functional
+              teams, controlling scope, schedule, and budgets, and translating
+              innovation into industrial application. My background in chemistry
+              and engineering, paired with strong leadership and planning
+              skills, enhances my approach to financial and risk management,
+              ensuring projects are delivered on time and within budget. I align
+              technical execution with business strategy to drive impactful
+              outcomes in high-performance environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="Experience" class="bg-body-tertiary pt-5 text-sm-start py-3">
+      <div class="container">
+        <div class="row">
+          <h2 class="ms-2 ms-sm-4 my-3">Experience</h2>
+          <hr />
+          <div class="ms-2 ms-sm-4 col-md-4">
+            <h5>Nov 2025 - present</h5>
+          </div>
+          <div class="ms-2 ms-sm-4 col-md-6">
+            <h4>Project Manager, VTU Engineering GMBH</h4>
+            <span class="pb-5"
+              >Managing projects in chemical plant engineering</span
+            >
+            <ul>
+              <li>Managing roles in CAPEX projects (Budget > 15 Mio)</li>
+              <li>Leading project teams (up to 30 people)</li>
+              <li>Contract management, budgeting and cost estimate</li>
+              <li>Change management, scheduling and controling</li>
+            </ul>
+          </div>
+          <div class="ms-2 ms-sm-4 col-md-4">
+            <h5>Oct 2018 - Nov 2022</h5>
+          </div>
+          <div class="ms-2 ms-sm-4 col-md-6">
+            <h4>R&D Professional, Wolfram AG, St. Martin im Sulmtal</h4>
+            <span class="pb-5"
+              >Managing projects in a multidisciplinary environment across
+              diﬀerent departments</span
+            >
+            <ul>
+              <li>
+                R&D activities in the ﬁeld of tungsten chemistry and recycling
+              </li>
+              <li>Improvement of processes in the wet-chemical sector</li>
+              <li>Project management</li>
+              <li>
+                Development of concepts for processes and process planning
+              </li>
+              <li>
+                Technological and operational research, technology scouting
+              </li>
+            </ul>
+          </div>
+          <div class="ms-2 ms-sm-4 col-md-4">
+            <h5>Dec 2011 - Jan 2018</h5>
+          </div>
+          <div class="ms-2 ms-sm-4 col-md-6">
+            <h4>Senior Scientist, Annikki GmbH, Graz</h4>
+            <span class="pb-5"
+              >Development and optimization of a process towards biomass
+              conversion and pulp production</span
+            >
+            <ul>
+              <li>
+                The process scaled from basic research to pilot. 5 patented
+                inventions
+              </li>
+              <li>Managing related projects. Experimental planning</li>
+              <li>
+                Processing the experimental data, reporting to higher management
+              </li>
+              <li>
+                Advising potential investors on technical part of the project
+              </li>
+              <li>Supervising laboratory technicians</li>
+            </ul>
+          </div>
+          <div class="ms-2 ms-sm-4 col-md-4">
+            <h5>Jan 2011 - Nov 2011</h5>
+          </div>
+          <div class="ms-2 ms-sm-4 col-md-6">
+            <h4>Project Assistant, University of Technology, Vienna</h4>
+            <span class="pb-5"
+              >Development of catalytic systems for lignin degradation</span
+            >
+            <ul>
+              <li>
+                Planning and carrying out experimental work. One registered
+                invention
+              </li>
+              <li>
+                Processing and handling the experimental data. Reporting the
+                result
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

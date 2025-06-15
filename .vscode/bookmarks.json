@@ -1,0 +1,19 @@
+{
+	"files": [
+		{
+			"path": "index.html",
+			"bookmarks": [
+				{
+					"line": 19,
+					"column": 0,
+					"label": "Navbar"
+				},
+				{
+					"line": 59,
+					"column": 0,
+					"label": "About Me"
+				}
+			]
+		}
+	]
+}
