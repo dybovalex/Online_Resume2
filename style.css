@@ -4,12 +4,11 @@ body::before {
   height: 60px;
 }
 
-
-
 .header {
   height: 100dvh;
 }
 
-.cv-date {
-  text-align: left;
+.icon-square {
+  width: 3rem;
+  height: 3rem;
 }
